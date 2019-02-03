@@ -22,5 +22,10 @@
   "peerDependencies": {
     "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
     "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "dependencies": {
+    "@angular/fire": "^5.1.1",
+    "firebase": "^5.8.2",
+    "rxjs": "^6.4.0"
   }
 }
