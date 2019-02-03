@@ -121,6 +121,41 @@
           }
         }
       }
+    },
+    "PrettyUpload": {
+      "root": "projects/pretty-upload",
+      "sourceRoot": "projects/pretty-upload/src",
+      "projectType": "library",
+      "prefix": "Pretty",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/pretty-upload/tsconfig.lib.json",
+            "project": "projects/pretty-upload/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/pretty-upload/src/test.ts",
+            "tsConfig": "projects/pretty-upload/tsconfig.spec.json",
+            "karmaConfig": "projects/pretty-upload/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/pretty-upload/tsconfig.lib.json",
+              "projects/pretty-upload/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "PrettyUploadLibrary"

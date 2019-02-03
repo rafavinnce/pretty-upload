@@ -16,6 +16,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "PrettyUpload": [
+        "dist/pretty-upload"
+      ],
+      "PrettyUpload/*": [
+        "dist/pretty-upload/*"
+      ]
+    }
   }
 }
