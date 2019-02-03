@@ -1,0 +1,17 @@
+{
+    "extends": "../tslint.json",
+    "rules": {
+        "directive-selector": [
+            true,
+            "attribute",
+            "pretty-upload",
+            "camelCase"
+        ],
+        "component-selector": [
+            true,
+            "element",
+            "pretty-upload",
+            "kebab-case"
+        ]
+    }
+}
