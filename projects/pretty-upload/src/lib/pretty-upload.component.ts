@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'Pretty-PrettyUpload',
+  selector: 'pretty-upload',
   template: `
     <p>
       pretty-upload works!

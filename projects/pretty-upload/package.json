@@ -1,6 +1,24 @@
 {
   "name": "pretty-upload",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "description": "Pretty Angular Uploader dragn and drop files.",
+  "author": "Rafael Milani Barbosa",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafaelmilanibarbosa/pretty-upload"
+  },
+  "bugs": {
+    "url": "https://github.com/rafaelmilanibarbosa/pretty-upload/issues"
+  },
+  "himepage": "https://github.com/rafaelmilanibarbosa/pretty-upload",
+  "keywords": [
+    "angular",
+    "japascript",
+    "upload",
+    "directive",
+    "angular-material"
+  ],
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
     "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
